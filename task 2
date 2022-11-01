@@ -1,0 +1,36 @@
+import java.util.*; class
+Square
+{
+ void Area(double side)
+ {
+ System.out.println("Area of the Square: "+ side * side);
+ }
+
+ void Area(float side)
+ {
+ System.out.println("Area of the Square: "+ side * side);
+ } }
+class Rectangle
+{
+ void Area(double l, double b)
+ {
+ System.out.println("\nArea of the rectangle: " + l * b);
+ }
+ void Area(int l, int b)
+ {
+ System.out.println("Area of the rectangle: " + l * b);
+ }
+}
+public class Main
+{
+ public static void main(String[] args)
+ {
+
+ Square obj2 = new Square();
+obj2.Area(100);
+obj2.Area(25);
+ Rectangle obj = new Rectangle();
+obj.Area(15.5,10.5);
+obj.Area(100,50);
+ } 
+ } 
